@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('#sizePicker').submit(function makeGrid(grid){
 	    $('table tr').remove();
-		const rows = $('#inputHeight').val();
-		const cols = $('#inputWeight').val();
+		let rows = $('#inputHeight').val();
+		let cols = $('#inputWeight').val();
 		
 		for(let i = 1; i <= rows; i++) {
 		    $('#pixelCanvas').append('<tr id="class"'+ i + '></tr>');
