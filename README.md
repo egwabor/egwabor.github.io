@@ -12,7 +12,7 @@ Clone repository
 Open `index.html` in browser.
 
 SPICE:
-same concept, new code: Edit 'index.html' and uncomment line 30, comment line 29
+same concept, new code: Edit `index.html` and uncomment line 30, comment line 29
 
 
 
